@@ -24,3 +24,11 @@ Finally, use the Invoke-CmdExec cmdlet to execute commands on the target server:
 
 * Create another cmdlet to remove the custom stored procedure from the SQL Server
 * Allow for the name of the assembly and the stored procedure to be changed via paramaters.
+
+## Acknowledgements
+
+* Jourdan Templeton for his post on how to connect to a [SQL Server in PowerShell](https://blog.jourdant.me/post/simple-sql-in-powershell).
+* Andy Novik for his post on how to pass parameters to a [custom stored procedure](https://www.mssqltips.com/sqlservertip/2087/how-to-execute-a-dos-command-when-xpcmdshell-is-disabled-in-sql-server/).
+* [wald0](https://wald0.com/) for guidance.
+* [tifkin_](https://twitter.com/tifkin_) for doing it first.
+* Scott Sutherland for his amazing work on [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL).
