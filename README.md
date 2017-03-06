@@ -8,6 +8,8 @@ This techinque will allow for the execution of commands on a comprompised Micros
 1. New-CLRProcedure - This cmdlet enables CLR stored procedures on the SQL Server, reconfigures it, loads the Dot Net assembly into memory, then creates a stored procedure from the loaded assembly.
 2. Invoke-CmdExec - This cmdlet passes a specified command to the previously created stored procedure, where it is then executed.
 
+## Instructions
+
 First, import the module:
 
 `import-module SeeClearly.ps1`
