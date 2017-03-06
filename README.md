@@ -12,7 +12,7 @@ This techinque will allow for the execution of commands on a comprompised Micros
 
 First, import the module:
 
-`import-module SeeClearly.ps1`
+`import-module SeeCLRly.ps1`
 
 Next, use the New-CLRProcedure cmdlet to create a custom stored procedure on the target SQL Server:
 
